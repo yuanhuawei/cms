@@ -2,7 +2,6 @@ using System;
 using System.IO;
 using MaiDar.Core;
 using MaiDarServer.CMS.Core;
-using MaiDarServer.Plugin;
 
 namespace MaiDarServer
 {

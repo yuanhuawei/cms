@@ -1,4 +1,7 @@
-﻿using MaiDarServer.CMS.Model;
+﻿using MaiDar.Core;
+using MaiDarServer.CMS.Core;
+using MaiDarServer.CMS.Model;
+using MaiDarServer.CMS.Model.Enumerations;
 using System;
 
 namespace MaiDarServer

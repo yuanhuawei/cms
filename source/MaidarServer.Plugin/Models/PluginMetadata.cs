@@ -30,7 +30,7 @@ namespace MaiDarServer.Plugin.Models
         public string DirectoryPath
         {
             get { return _directoryPath; }
-            internal set
+              set
             {
                 _directoryPath = value;
                 Id = (Publisher + "-" + Name).Replace(".", string.Empty).Replace(" ", string.Empty);
@@ -49,7 +49,7 @@ namespace MaiDarServer.Plugin.Models
         public string ExecuteFilePath { get; private set; }
 
         [JsonIgnore]
-        public long InitTime { get; internal set; }
+        public long InitTime { get;  set; }
 
         public PluginMetadata Copy()
         {

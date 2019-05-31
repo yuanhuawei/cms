@@ -1361,6 +1361,10 @@
       <Project>{c194a8f5-66d6-4367-b32a-3d5aab4cf00e}</Project>
       <Name>MaidarServer.CMS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MaidarServer.Plugin\MaidarServer.Plugin.csproj">
+      <Project>{AF7B4C4C-3DC1-4370-8E96-56C09928969D}</Project>
+      <Name>MaidarServer.Plugin</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

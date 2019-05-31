@@ -8,7 +8,7 @@ using MaiDarServer.CMS.WeiXin.Data;
 using MaiDarServer.CMS.WeiXin.Manager;
 using MaiDarServer.CMS.WeiXin.Model;
 using MaiDarServer.CMS.WeiXin.Model.Enumerations;
-using MessageManager = SiteServer.CMS.WeiXin.Manager.MessageManager;
+using MessageManager = MaiDarServer.CMS.WeiXin.Manager.MessageManager;
 
 namespace MaiDarServer.BackgroundPages.WeiXin
 {

@@ -10,7 +10,7 @@ using MaiDarServer.CMS.Core;
 using MaiDarServer.CMS.Core.Security;
 using MaiDarServer.CMS.Model;
 using MaiDarServer.CMS.Model.Enumerations;
-using ModalExportMessage = SiteServer.BackgroundPages.Cms.ModalExportMessage;
+using ModalExportMessage = MaiDarServer.BackgroundPages.Cms.ModalExportMessage;
 
 namespace MaiDarServer.BackgroundPages.Core
 {

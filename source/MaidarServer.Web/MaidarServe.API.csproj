@@ -195,9 +195,17 @@
       <Project>{3d8cb06b-1791-4685-ab56-965b9f41666e}</Project>
       <Name>MaiDar.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MaidarServer.BackgroundPages\MaidarServer.BackgroundPages.csproj">
+      <Project>{3F0CD371-D7F3-49A6-9931-DE5AD0C4B17A}</Project>
+      <Name>MaidarServer.BackgroundPages</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MaidarServer.CMS\MaidarServer.CMS.csproj">
       <Project>{c194a8f5-66d6-4367-b32a-3d5aab4cf00e}</Project>
       <Name>MaidarServer.CMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MaidarServer.Plugin\MaidarServer.Plugin.csproj">
+      <Project>{AF7B4C4C-3DC1-4370-8E96-56C09928969D}</Project>
+      <Name>MaidarServer.Plugin</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

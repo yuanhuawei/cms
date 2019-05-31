@@ -80,12 +80,12 @@ namespace MaiDarServer
                     Decode.Start(subOptions.String);
                 }
             }
-            else if (invokedVerb == Plugin.CommandName)
+            else if (invokedVerb == commands.Plugin.CommandName)
             {
                 var subOptions = (PluginSubOptions)invokedVerbInstance;
                 if (subOptions != null)
                 {
-                    Plugin.Start(subOptions.String);
+                    commands. Plugin.Start(subOptions.String);
                 }
             }
             else if (invokedVerb == Run.CommandName)
